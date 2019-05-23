@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/daysleep/workspace_schematic/4x4_LED_matrix/4x4_led_matrix.sch</source>
+    <date>2018년 04월 30일 (월) 오전 11시 56분 35초</date>
+    <tool>Eeschema 4.0.7+dfsg1-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>4x4_led_matrix.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D4">
+      <value>LED</value>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE68181</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>LED</value>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE681DB</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>LED</value>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE682E4</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>LED</value>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE682EA</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE683D4</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>LED</value>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE683DA</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>LED</value>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE683E0</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>LED</value>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE683E6</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE6859C</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>LED</value>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE685A2</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>LED</value>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE685A8</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>LED</value>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE685AE</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE685B4</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>LED</value>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE685BA</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>LED</value>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE685C0</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>LED</value>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE685C6</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>EXT_VCC</value>
+      <libsource lib="conn" part="Conn_01x01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE69F2A</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>COL0</value>
+      <libsource lib="conn" part="Conn_01x01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE6A291</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>COL1</value>
+      <libsource lib="conn" part="Conn_01x01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE6A64C</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>COL2</value>
+      <libsource lib="conn" part="Conn_01x01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE6A77D</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>COL3</value>
+      <libsource lib="conn" part="Conn_01x01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE6A81A</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="conn" part="Conn_01x01">
+      <description>Generic connector, single row, 01x01</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <description>LED generic</description>
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(D4-Pad1)">
+      <node ref="D8" pin="2"/>
+      <node ref="D4" pin="1"/>
+    </net>
+    <net code="2" name="Net-(D12-Pad2)">
+      <node ref="D8" pin="1"/>
+      <node ref="D12" pin="2"/>
+    </net>
+    <net code="3" name="Net-(D12-Pad1)">
+      <node ref="D16" pin="2"/>
+      <node ref="D12" pin="1"/>
+    </net>
+    <net code="4" name="Net-(D3-Pad1)">
+      <node ref="D7" pin="2"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="5" name="Net-(D11-Pad2)">
+      <node ref="D11" pin="2"/>
+      <node ref="D7" pin="1"/>
+    </net>
+    <net code="6" name="Net-(D11-Pad1)">
+      <node ref="D15" pin="2"/>
+      <node ref="D11" pin="1"/>
+    </net>
+    <net code="7" name="Net-(D2-Pad1)">
+      <node ref="D6" pin="2"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="8" name="Net-(D10-Pad2)">
+      <node ref="D6" pin="1"/>
+      <node ref="D10" pin="2"/>
+    </net>
+    <net code="9" name="Net-(D10-Pad1)">
+      <node ref="D10" pin="1"/>
+      <node ref="D14" pin="2"/>
+    </net>
+    <net code="10" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="11" name="Net-(D5-Pad1)">
+      <node ref="D5" pin="1"/>
+      <node ref="D9" pin="2"/>
+    </net>
+    <net code="12" name="Net-(D13-Pad2)">
+      <node ref="D9" pin="1"/>
+      <node ref="D13" pin="2"/>
+    </net>
+    <net code="13" name="Net-(D16-Pad1)">
+      <node ref="D16" pin="1"/>
+      <node ref="J5" pin="1"/>
+    </net>
+    <net code="14" name="Net-(D15-Pad1)">
+      <node ref="D15" pin="1"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="15" name="Net-(D14-Pad1)">
+      <node ref="D14" pin="1"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="16" name="Net-(D13-Pad1)">
+      <node ref="J2" pin="1"/>
+      <node ref="D13" pin="1"/>
+    </net>
+    <net code="17" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="D4" pin="2"/>
+      <node ref="J1" pin="1"/>
+    </net>
+  </nets>
+</export>
